@@ -1,7 +1,7 @@
 var restart = document.querySelector("#b");
 
 // Grab all the squares
-var table = document.querySelectorAll('td');
+var table = document.querySelectorAll('button');
 
 function clearTable(){
     for (var i = 0; i< table.length; i++){
