@@ -1,3 +1,16 @@
+var restart = document.querySelector(".container");
+
+// Grab all the squares
+var table = document.querySelectorAll('.table');
+
+function clearTable(){
+    for (var i = 0; i< table.length; i++){
+        table[i].textContent = '';
+    }
+}
+
+restart.addEventListener('click', clearTable);
+
 
   var player1 = prompt("Player One: Enter your Name. Your color is Orange")
   var player1Color = 'rgb(255, 165, 0)';
