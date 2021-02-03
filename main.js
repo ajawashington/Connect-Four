@@ -1,4 +1,4 @@
-var restart = document.querySelector(".container");
+var restart = document.querySelector("#b");
 
 // Grab all the squares
 var table = document.querySelectorAll('.table');
