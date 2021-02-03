@@ -1,15 +1,15 @@
-var restart = document.querySelector("#b");
+// var restart = document.querySelector("#b");
 
-// Grab all the squares
-var table = document.querySelectorAll('button');
+// // Grab all the squares
+// var table = document.querySelectorAll('button');
 
-function clearTable(){
-    for (var i = 0; i< table.length; i++){
-        table[i].textContent = '';
-    }
-}
+// function clearTable(){
+//     for (var i = 0; i< table.length; i++){
+//         table[i].textContent = '';
+//     }
+// }
 
-restart.addEventListener('click', clearTable);
+// restart.addEventListener('click', clearTable);
 
 
   var player1 = prompt("Player One: Enter your Name. Your color is Orange")
